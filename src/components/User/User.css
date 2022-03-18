@@ -1,8 +1,12 @@
 .user{
     color: whitesmoke;
-    background-color: darkgoldenrod;
+    background-color: rgb(96, 98, 192);
     padding: 20px;
     margin: 20px;
-    border: 3px solid blue;
+    border: 3px solid burlywood;
     border-radius: 20px;
+}
+#btn-id{
+    padding: 10px;
+    border-radius: 5px;
 }

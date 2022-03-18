@@ -11,13 +11,13 @@ const User = (props) => {
 
     return (
         <div className='user'>
-            <h3>Name : {name}</h3>
+            <h2>Name : {name}</h2>
             <p>Street : {address.street} City : {address.city} Zip Code : {address.zipcode}</p>
             <p>Phone : {phone}</p>
             <p>E-mail : {email}</p>
             <p>Website : {website}</p>
-            <p>Boost Total Taka: {boost}</p>
-            <button onClick={bootsTaka}>Boost Post</button>
+            <p>Boost Per Day: {boost}</p>
+            <button id='btn-id' onClick={bootsTaka}>Boost Post</button>
         </div>
     );
 };

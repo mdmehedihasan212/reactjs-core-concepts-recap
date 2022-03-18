@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import User from '../User/User';
-
+import './Users.css'
 const Users = () => {
     const [users, setUsers] = useState([])
     useEffect(() => {
@@ -10,9 +10,12 @@ const Users = () => {
     }, [])
     return (
         <div>
-            {
-                users.map(user => <User user={user}></User>)
-            }
+            <h1>User API Information</h1>
+            <div className='users-container'>
+                {
+                    users.map(user => <User user={user}></User>)
+                }
+            </div>
         </div>
     );
 };
